@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+
+}
+
+body, html{
+
+    position:relative;
+    width:100%;
+
+}
+.icon{
+position: fixed;
+bottom: 80px;
+right: 30px;
+font-size: 60px;
+background-color: #01e675;
+color: #fff;
+border-radius: 50px;
+padding: 20px;
+width: 100px;
+height: 100px;
+text-align: center;
+text-decoration:none ;
+z-index: 100;
+box-shadow: 2px 2px 2px #c0bdbd;
+
+}
+.icon:hover{
+background-color: #fff;
+color: #029e3b;
+font-weight: 900;
+box-shadow: 2px 2px 20px #5fe690;
+}
